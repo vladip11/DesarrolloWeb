@@ -1,0 +1,36 @@
+
+
+#container{
+    margin: 0 auto;
+    overflow: hidden;
+}
+#header{
+    background-color: #0000ff;
+    color:white;
+    float: none;
+    text-align: center;
+}
+#leftMenu{
+    background-color: #9966ff;
+    float: left;
+    width: 50%;
+    margin-bottom: -1000px; 
+    padding-bottom: 1000px;
+}
+
+#rightMenu{
+    background-color: #00cccc;
+    float: left;
+    width:50%;  
+    margin-bottom: -1000px;
+    padding-bottom: 1000px;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+body{
+    background-color: #009999;
+}
+
