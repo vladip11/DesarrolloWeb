@@ -1,0 +1,44 @@
+
+
+#container{
+    background-color: white; 
+    width: 900px;
+    margin: 0 auto;
+    }
+#header{
+    background-color: #00ffff;
+    color:black;
+    float: none;
+    text-align: center;
+	height: 200px;
+	width: 900px;
+}
+
+#leftMenu{
+    background-color: #000000;
+    float: left;
+    width: 13%;
+   height: 500px;
+   
+}
+#content{
+    background-color: #ffffff;
+    float: left;
+    width: 87%;
+    text-align: left;
+    height: 500px;
+
+    
+}
+#footer{
+    background-color: #006666;
+    text-align: center;
+    float: none;
+    clear: both;                
+    color: white;
+}
+
+body{
+    background-color: #009999;
+}
+
