@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Tarea Nº 5</title>
+</head>
+<body>
+	<p>Ejercicio 1 <br>
+	triplicado de una cadena <br>
+	</p>
+<form action="triplica.php" method="POST">
+	<label for="txtn">introduzca una cadena</label>
+	<input type="text" name="txtn"><br>
+	<input type="submit" value="Enviar">
+</form>
+	<p>Ejercicio 2 <br>
+		generacion de tabla <br>
+	</p>
+<form action="tabla.php" method="POST">
+	<label for="txtfilas">ingrese el numero de filas</label>
+	<input type="text" name="txtfilas">
+	<label for="txtAltura">Ingrese la Altura</label>
+	<input type="text" name="txtAltura">px<br>
+	<label for="txtcolumnas">ingrese el numero de columnas</label>
+	<input type="text" name="txtcolumnas">
+	<label for="txtAnchura">ingresa la anchura</label>
+	<input type="text" name="txtAnchura">px<br>
+	<input type="submit" name="Enviar">
+</form>
+	<p>Ejercicio 3 <br>
+		calculo del area de un triangulo <br>
+	</p>
+<form action="triangulo.php" method="GET">
+	<label for="txtb">introduzca b(base)</label>
+	<input type="text" name="txtb"><br>
+	<label for="txth">introduxca h(altura)</label>
+	<input type="text" name="txth">
+	<input type="submit" value="Calcular">
+</form>	
+	<p>Ejercicio 4 <br>
+		seleccion de meses <br> 
+	</p>
+<form action="mes.php" method="GET">
+	<label for="txtm">introduzca el valor del mes (numero entero)</label>
+	<input type="text" name="txtm"><br>
+	<input type="submit" value="Enviar">
+</form>
+</body>
+</html>
